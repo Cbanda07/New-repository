@@ -1,0 +1,30 @@
+/* Hero Section */
+.hero {
+    position: relative;
+    color: rgb(248, 244, 244);
+}
+
+.hero .overlay {
+    background: rgba(248, 245, 245, 0.5);
+    padding: 2rem;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    background-color: #f7f7f7;
+    border-radius: 0 0 10px 10px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .hero {
+        text-align: center;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+}
